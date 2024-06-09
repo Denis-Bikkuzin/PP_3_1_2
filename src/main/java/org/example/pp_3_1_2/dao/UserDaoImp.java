@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-@Component
 public class UserDaoImp implements UserDao {
 
     @PersistenceContext
